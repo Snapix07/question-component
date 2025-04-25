@@ -273,6 +273,7 @@ main {
   border-radius: var(--borderRadius);
   padding: 1rem 1.5rem;
   box-shadow: var(--shadow-2);
+  margin: 2.5;
 }
 
 .container h1{
