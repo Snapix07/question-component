@@ -311,6 +311,7 @@ main {
 .question-btn{
   background: transparent;
   border-color: transparent;
+  border: none;
   width: 2rem;
   height: 2rem;
   background: var(--primary-900);
@@ -320,7 +321,7 @@ main {
   color: var(--white);
   border-radius: 50%;
   cursor: pointer;
-  
+  padding: 0.6rem;
 }
 
 .questions p{
