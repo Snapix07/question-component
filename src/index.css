@@ -265,7 +265,12 @@ main {
   justify-content: center;
   align-items: center;
 }
-
+@media (max-width:768px) {
+  .container{
+    margin: 1rem;
+  }
+  
+}
 .container{
   max-width: 90vw;
   width: 800px;
@@ -273,7 +278,7 @@ main {
   border-radius: var(--borderRadius);
   padding: 1rem 1.5rem;
   box-shadow: var(--shadow-2);
-  margin: 2.5;
+  margin: 2.5rem;
 }
 
 .container h1{
